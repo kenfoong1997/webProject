@@ -1,0 +1,151 @@
+<html>
+<head>
+<title>
+T Travel
+</title>
+
+<style>
+body {
+  font-family: Arial;
+  font-size: 17px;
+}
+
+.content {
+  color: #f1f1f1;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  margin: auto 250px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding-top: 20px;
+  overflow: hidden;
+  top: 0;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+li a:hover {
+  background-color: #5591cc;
+  color: white;
+}
+
+.active {
+  color: #5591cc;
+}
+
+table {
+  margin: 50px 100px;
+}
+
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+div.frm {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+</style>
+</head>
+<body>
+
+  <div class="content">
+    <img src="logo.png" alt="T Travel" style="width:100px;border-radius:50%;float:left;">
+	<ul>
+	  <li><a class="active" href="#">Contact</a></li>
+	  <li><a href="#">About</a></li>
+	  <li><a href="Travel.html">Home</a></li>
+	</ul>
+  </div>
+  
+  <img src="banner.jpg" alt="Banner" style="width:100%;">
+  
+  <table>
+  <tr>
+  <td style="width: 40%">
+  <b style="color: #5591cc;font-size: 1em;">
+	ADDRESS
+</b> <br>
+<p>
+<b>T Travel Sdn Bhd</b> <br>
+	Perak, <br>
+	Malaysia
+</p>
+
+<hr>
+  <b style="color: #5591cc;font-size: 1em;">
+	TELEPHONE
+</b> <br>
+<p>
+	012-3456789   
+</p>
+<hr>
+  <b style="color: #5591cc;font-size: 1em;">
+	EMAIL
+</b> <br>
+<p>
+Ttravel@gmail.com 
+</p>
+</td>
+
+<td>
+<div class="frm">
+  <form>
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="australia">Malaysia</option>
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+    </select>
+  
+    <input type="submit" value="Submit">
+  </form>
+</div>
+</td>
+</tr>
+</table>
+</body>
+</html>
