@@ -194,6 +194,16 @@ body {
     resize: none;
     margin: 8px 0;
   }
+  
+  .zoom {
+  transition: transform 1s;
+}
+
+  .zoom:hover {
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5); 
+}
 
   .footer{
       text-align: center;
